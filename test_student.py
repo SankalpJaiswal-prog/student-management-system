@@ -21,7 +21,7 @@ def test_search_existing_student():
 
 
 def test_search_non_existing_student():
-    assert search_student(5) is None
+    assert search_student(5) == "Student not found"
 
 
 def test_remove_existing_student():
